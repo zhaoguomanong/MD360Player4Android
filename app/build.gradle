@@ -4,7 +4,7 @@ android {
     compileSdkVersion 31
     defaultConfig {
         applicationId "com.asha.md360player4android"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -30,7 +30,8 @@ dependencies {
     //required, enough for most devices.
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.6.0'
-    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.6.0'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-arm64:0.8.8'
     implementation project(path: ':vrlib')
 }
